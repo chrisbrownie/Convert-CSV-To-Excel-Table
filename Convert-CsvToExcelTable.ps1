@@ -23,7 +23,7 @@ Find me on:
 Param(
     [Parameter(Mandatory)][string]$csvFilePath,
     [Parameter(Mandatory)][string]$excelFilePath,
-    [Parameter][string]$TableStyle = "TableStyleLight9"
+    [string]$TableStyle = "TableStyleLight9"
     )
 
 # Convert CSV File Path to the absolute path
